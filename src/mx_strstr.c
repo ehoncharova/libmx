@@ -9,9 +9,10 @@ char *mx_strstr(const char *s1, const char *s2) {
 			ret = mx_strchr(s1, start);
 			i = c;
 	}
-		else
+		else {
 			ret = NULL;
 			s1++;
+		}
 	}
 	return ret;
 }

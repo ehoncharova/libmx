@@ -30,6 +30,7 @@ char *mx_nbr_to_hex(unsigned long nbr);
 int mx_bubble_sort(int *arr, int size);
 int mx_quicksort(int *arr, int left, int right);
 char *mx_itoa(int number);
+bool mx_isspace(char c);
 
 double mx_pow(double a, unsigned int pow);
 int mx_sqrt (int x);
@@ -57,6 +58,8 @@ int mx_count_substr(const char *str, const char *sub);
 int mx_get_char_index(const char *str, char c);
 int mx_get_substr_index(const char *str, const char *sub);
 char *mx_strtrim(const char *str);
+char *mx_strchr(const char *s, int c);
+int mx_strncmp(const char *s1, const char *s2, int n);
 
 // Memory pack
 void *mx_memset(void *b, int c, size_t len);
