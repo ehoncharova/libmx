@@ -6,7 +6,7 @@ The point was to create own library of standard functions in C, using only:
 
 ## Installation
 
-For instalation library you need to write make all in terminal. It's educational project, so feel free to use it.
+For instalation library you need to write `make all` in terminal. It's educational project, so feel free to use it.
 
 ## The description of functions is following:
 
